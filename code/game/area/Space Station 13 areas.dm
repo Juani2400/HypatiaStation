@@ -954,6 +954,10 @@ var/list/ghostteleportlocs = list()
 		name = "\improper Engineering Foyer"
 		icon_state = "engine"
 
+	monitoring
+		name = "\improper Engineering Monitoring"
+		icon_state = "engine"
+
 	emerg_storage
 		name = "\improper Emergency Materials Storage"
 		icon_state = "engine"
@@ -1290,10 +1294,6 @@ var/list/ghostteleportlocs = list()
 	name = "\improper Vacant Office"
 	icon_state = "security"
 
-/area/security/headdorms
-	name = "\improper Head Dormitories"
-	icon_state = "security"
-
 /area/quartermaster
 	name = "\improper Quartermasters"
 	icon_state = "quart"
@@ -1308,6 +1308,10 @@ var/list/ghostteleportlocs = list()
 
 /area/quartermaster/office
 	name = "\improper Cargo Office"
+	icon_state = "quartoffice"
+
+/area/quartermaster/break_room
+	name = "\improper Cargo Break Room"
 	icon_state = "quartoffice"
 
 /area/quartermaster/storage
@@ -1419,11 +1423,15 @@ var/list/ghostteleportlocs = list()
 	icon_state = "storage"
 
 /area/storage/emergency
-	name = "Starboard Emergency Storage"
+	name = "Starboard Escape Emergency Storage"
 	icon_state = "emergencystorage"
 
 /area/storage/emergency2
 	name = "Port Emergency Storage"
+	icon_state = "emergencystorage"
+
+/area/storage/emergency3
+	name = "Starboard Main Hallway Emergency Storage"
 	icon_state = "emergencystorage"
 
 /area/storage/tech
